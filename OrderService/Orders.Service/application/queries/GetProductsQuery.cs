@@ -13,7 +13,7 @@ public class GetProductsQuery : IRequest<List<Product>> {
         }
         public Task<List<Product>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
         {
-            var products = _dbContext.Products.toList();
+            var products = _dbContext.Products.ToList();
             return Task.FromResult(products);
         }
     }
