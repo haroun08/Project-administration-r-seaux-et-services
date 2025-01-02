@@ -11,7 +11,7 @@ using Orders.Domain;
 namespace Orders.Service.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250102151240_Init")]
+    [Migration("20250102153444_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -67,7 +67,7 @@ namespace Orders.Service.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Orders.Domain.Entities.Order", b =>

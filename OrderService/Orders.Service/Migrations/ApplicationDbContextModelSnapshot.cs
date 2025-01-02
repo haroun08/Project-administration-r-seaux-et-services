@@ -64,7 +64,7 @@ namespace Orders.Service.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Orders.Domain.Entities.Order", b =>

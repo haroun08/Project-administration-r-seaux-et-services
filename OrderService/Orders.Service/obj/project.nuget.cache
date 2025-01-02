@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2LgdpkCkJ+W4ThPJjN+sIzRC1ciQEDR6dXaOCLP3vSl0DKV2oJq374UeafstOj/jzDHtbKIfzUJQP+JFRmY8Eg==",
+  "dgSpecHash": "1xzP3M+7oXSuRjrTm0nHdcY+eXKFK+WjmDbTCf2YZ2KqeaFf4GuPLzSv0ZziDXYudm1iBXYxsnNDDkqgT9rtEw==",
   "success": true,
   "projectFilePath": "D:\\admin Rx Services\\Project\\OrderService\\Orders.Service\\Orders.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\kunha\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\kunha\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\kunha\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\kunha\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "C:\\Users\\kunha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\kunha\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
