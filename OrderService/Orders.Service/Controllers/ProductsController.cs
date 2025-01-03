@@ -1,17 +1,18 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Orders.Domain.Entities;
+using Orders.Service.Application.Commands;
 using Orders.Service.Application.Queries;
 
 namespace Orders.Service.Controllers;
 
 [Route("products")]
 [ApiController]
-public class productsController : ControllerBase 
+public class ProductsController : ControllerBase 
 {
     private readonly IMediator _mediator;
 
-    public productsController(IMediator mediator) 
+    public ProductsController(IMediator mediator) 
     {
         _mediator = mediator;
     }
@@ -19,5 +20,11 @@ public class productsController : ControllerBase
     public async Task<List<Product>> GetProducts(GetProductsQuery request) 
     {
         return await _mediator.Send(request);
+    }
+
+
+    [HttpPost]
+    public async Task CreateProduct(CreateProductCommand request) {
+        await _mediator.Send(request);
     }
 }
