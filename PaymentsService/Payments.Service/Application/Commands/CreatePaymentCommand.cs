@@ -19,12 +19,12 @@ public class CreatePaymentCommand : IRequest
         }
         public Task<Unit> Handle(CreatePaymentCommand request, CancellationToken cancellationToken)
         {
-            var payment = new Payment
-            {
+            var payment = new Payment {
                 ReferenceId = request.ReferenceId,
-                Price = request.Quantity * request.Price
-
+                Price = request.Price * request.Quantity
             };
+            _dbContext.Payments.Add(payment);
+            _dbContext.SaveChanges();
             return Task.FromResult(Unit.Value);
         }
     }

@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Payments.Domain.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class PriceChangeLast : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace Payments.Domain.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     ReferenceId = table.Column<int>(type: "integer", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal", nullable: false),
+                    Price = table.Column<decimal>(type: "numeric", nullable: false),
                     status = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>

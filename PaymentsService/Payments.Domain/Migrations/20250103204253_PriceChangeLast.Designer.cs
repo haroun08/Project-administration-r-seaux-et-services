@@ -11,8 +11,8 @@ using Payments.Domain;
 namespace Payments.Domain.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250103200125_Init")]
-    partial class Init
+    [Migration("20250103204253_PriceChangeLast")]
+    partial class PriceChangeLast
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,8 +32,8 @@ namespace Payments.Domain.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Price")
-                        .HasColumnType("integer");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
 
                     b.Property<int>("ReferenceId")
                         .HasColumnType("integer");
