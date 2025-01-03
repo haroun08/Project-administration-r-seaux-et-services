@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\admin Rx Services\\Project\\OrderService\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj": {}
+    "D:\\admin Rx Services\\Project\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj": {}
   },
   "projects": {
-    "D:\\admin Rx Services\\Project\\OrderService\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj": {
+    "D:\\admin Rx Services\\Project\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\admin Rx Services\\Project\\OrderService\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj",
+        "projectUniqueName": "D:\\admin Rx Services\\Project\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj",
         "projectName": "Payments.Domain",
-        "projectPath": "D:\\admin Rx Services\\Project\\OrderService\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj",
+        "projectPath": "D:\\admin Rx Services\\Project\\PaymentsService\\Payments.Domain\\Payments.Domain.csproj",
         "packagesPath": "C:\\Users\\kunha\\.nuget\\packages\\",
-        "outputPath": "D:\\admin Rx Services\\Project\\OrderService\\PaymentsService\\Payments.Domain\\obj\\",
+        "outputPath": "D:\\admin Rx Services\\Project\\PaymentsService\\Payments.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
