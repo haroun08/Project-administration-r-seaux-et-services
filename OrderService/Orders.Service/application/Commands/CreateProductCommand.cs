@@ -7,7 +7,6 @@ namespace Orders.Service.Application.Commands;
 public class CreateProductCommand : IRequest
 {
     public string Name {get;set;}
-    public string Description {get;set;}
     public int Quantity {get;set;}
     public decimal Price {get;set;}
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
