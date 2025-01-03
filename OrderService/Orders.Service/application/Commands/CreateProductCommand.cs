@@ -17,12 +17,14 @@ public class CreateProductCommand : IRequest
         }
         public Task<Unit> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var product = new Product {
+            var product = new Product 
+            {
                 Name =  request.Name,
                 Quantity = request.Quantity,
                 UnitPrice = request.Price
             };
             _dbContext.Products.Add(product);
+            _dbContext.SaveChanges();
             return Task.FromResult(Unit.Value);
         }
     }
