@@ -1,0 +1,13 @@
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\bin\Debug\net8.0\Payments.Domain.deps.json
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\bin\Debug\net8.0\Payments.Domain.dll
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\bin\Debug\net8.0\Payments.Domain.pdb
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.csproj.AssemblyReference.cache
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.AssemblyInfoInputs.cache
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.AssemblyInfo.cs
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.csproj.CoreCompileInputs.cache
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.sourcelink.json
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.dll
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\refint\Payments.Domain.dll
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\Payments.Domain.pdb
+D:\admin Rx Services\Project\PaymentsService\Payments.Domain\obj\Debug\net8.0\ref\Payments.Domain.dll
