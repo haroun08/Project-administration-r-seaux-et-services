@@ -1,3 +1,5 @@
+using Orders.Domain.Enums;
+
 namespace Orders.Domain.Entities;
 
 public class Order 
@@ -7,7 +9,7 @@ public class Order
 
     public int Quantity {get;set;}
     public decimal UnitPrice {get;set;}
-
+    public OrderStatus Status {get;set;}
     public Product Product;
 
 

@@ -9,7 +9,7 @@ namespace Orders.Domain
         {
             services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseNpgsql(cnnstring, b => b.MigrationsAssembly("Orders.Service"));
+                options.UseNpgsql(cnnstring, b => b.MigrationsAssembly("Orders.Domain"));
             });
             return services;
         }
